@@ -1,0 +1,21 @@
+public class Main
+{
+	public static void main(String[] args) {
+        int g=330;
+        if (g==100) {
+            System.out.println("excelent : A++");
+    	}else if(g>=90&&g<100) { 
+    	     System.out.println("very good : A");
+        }else if(g>=75&&g<90) {
+            System.out.println("good : B++");
+    	}else if(g>=60&&g<75) {
+    	    System.out.println("should be improve : B");
+        }else if(g>=33&&g<60) {
+            System.out.println("bed : c");
+        }else if(g>=0&&g<33) {
+            System.out.println("very bed : F");
+        } else {
+            System.out.println("Invalid percentage");
+        }
+    }
+}
